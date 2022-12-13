@@ -1,0 +1,146 @@
+#formulario{
+    width: 250px;
+    height: auto;
+    background-color: rgba(0, 255, 0, 0.5);
+    box-shadow: 0 0 15px white;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url("..//img/fondo.jpg");
+    background-repeat: no-repeat;
+}
+.cajaTexto  {
+    width: 120px;
+    height: 25px;
+    border-style: none;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    background-color:beige;
+}
+.cajaTexto:focus{
+    background-color: aqua  ;
+}
+#btnEnviar{
+    width: 100px;
+    background: linear-gradient(to left, green, white,red);
+    border-radius: 10px;
+    height: 25px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#btnEnviar:hover{
+    background: linear-gradient(to right, green,white,red);
+}
+#btnConfirmar{
+    width: 100px;
+    background: linear-gradient(to left, blue, white, red);
+    border-radius: 10px;
+    height: 25px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#btnConfirmar:hover{
+    background: linear-gradient(to right, rgb(44, 126, 180),rgb(212, 97, 97),rgb(240, 186, 186));
+}
+#btnTrue{
+    width: 100px;
+    background: linear-gradient(to left, rgb(47, 195, 228), white, rgb(47, 195, 228));
+    border-radius: 10px;
+    height: 25px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#btnTrue:hover{
+    background: linear-gradient(to right, rgb(11, 240, 3),rgb(207, 148, 21),rgb(248, 101, 199));
+}
+#btnLog{
+    width: 100px;
+    background: linear-gradient(to left, rgb(47, 195, 228), white, rgb(47, 195, 228));
+    border-radius: 10px;
+    height: 25px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#btnLog:hover{
+    background: linear-gradient(to right, rgb(11, 240, 3),rgb(207, 148, 21),rgb(248, 101, 199));
+}
+#btnError{
+    width: 100px;
+    background: linear-gradient(to left, rgb(47, 195, 228), white, rgb(47, 195, 228));
+    border-radius: 10px;
+    height: 25px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#btnError:hover{
+    background: linear-gradient(to right, rgb(11, 240, 3),rgb(207, 148, 21),rgb(248, 101, 199));
+}
+#mostrar{
+    background-color: rgb(207, 148, 21);
+    text-align: center;
+    width: 150px;
+    height: 70px;
+    margin: auto;
+    color: black;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#btnLimpiar{
+    width: 100px;
+    background: linear-gradient(to left, rgb(47, 195, 228), white, rgb(47, 195, 228));
+    border-radius: 10px;
+    height: 25px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#btnLimpiar:hover{
+    background: linear-gradient(to right, rgb(11, 240, 3),rgb(207, 148, 21),rgb(248, 101, 199));
+}
+#datos{
+    background-color: rgb(207, 148, 21);
+    text-align: center;
+    width: 150px;
+    height: 70px;
+    margin: auto;
+    margin-left: 150px;
+    color: black;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#domicilio{
+    background-color: rgb(24, 204, 236);
+    text-align: center;
+    width: 150px;
+    height: 70px;
+    margin: auto;
+    color: black;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#habilidades{
+    background-color: rgb(207, 148, 21);
+    text-align: center;
+    width: 150px;
+    height: 70px;
+    margin: auto;
+    margin-right: 200px;
+    color: black;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#go{
+    background-color: rgb(236, 24, 105);
+    text-align: center;
+    width: 150px;
+    height: 70px;
+    margin: auto;
+    color: black;
+    margin-top: 20px;
+    padding-top: 20px;
+}

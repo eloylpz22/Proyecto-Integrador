@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" >
+    <script src="https://kit.fontawesome.com/ceca519e33.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/alertify.core.css">
+    <link rel="stylesheet" href="css/alertify.default.css">
+    <link rel="stylesheet" href="css/jquery.dataTables.min.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/alertify.js"></script>
+    <script src="js/funcion.js"></script>
+    <script src="js/evaluaciones.js"></script>
+    <script src="js/chart.js"></script>
+
+    <title>Proyecto Integrador</title>
+    
+</head>
+<body>
+    <br>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid" style="color: burlywood;">
+            <a class="navbar-brand" href="#">Sistema MAXORCA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="menuInicio" > <i class="fa-solid fa-house"></i>Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Administrar</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" id="menuUsuario"> <i class="fa-solid fa-user"></i> Pacientes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                </form>
+            </div>
+        </div>
+      </nav>
+        <hr>  
+    </div>
+    <div class="container">
+        <div id="divInicio" style="text-align: center;">
+            <div class="alert alert-primary">
+                Bienvenido a Sistema de monitoreo
+            </div>
+            <img src="img/descarga.jpg" width="250px" height="250px" style="border-radius: 50% ;">
+        </div>
+        <!--inicia div formulario -->
+        <div id="divFormulario" style="display: none;">
+            <div class="row" style="text-align: center;">
+            <div class="col-4">
+                Clave
+                <input type="number" id="txtClave" class="form form-control" placeholder="Ingrese clave">
+                Nombre
+                <input type="text" id="txtNombre" class="form form-control" placeholder="Ingrese nombre">
+                Edad
+                <input type="number" id="txtEdad" class="form form-control" placeholder="Ingrese Edad"> <hr>
+                <button id="btnAgregar" class="btn btn-success" value="agregar"> <i class="fa-solid fa-floppy-disk"></i> Agregar</button>
+                <button id="btnNuevo" class="btn btn-danger"> <i class="fa-regular fa-file"></i> Nuevo</button>
+            </div>
+            <div class="col-8">
+                <div id="divMostrarUsuarios"></div>
+            </div>
+        </div>
+        </div>
+        <!--termina div formulario -->
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8" id="mostrarGrafica"></div>
+        </div>
+    </div>
+</body>
+</html>
